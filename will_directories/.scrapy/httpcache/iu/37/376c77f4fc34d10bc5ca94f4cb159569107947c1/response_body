@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Too Fast: IU Directory</title>
+    <meta name="description" content="Find people and departments at IU" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="msapplication-config" content="none" />
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+    <link href="/Content/uits/uits-style.css" rel="stylesheet" />
+    <link href="/Content/cci/site.css" rel="stylesheet" />
+    <link href="/Content/iu/brand.css" rel="stylesheet" />
+    <link href="/Content/directory.css" rel="stylesheet" />
+    <link href="/Content/cci/overrides.css" rel="stylesheet" />
+    <script src="/Scripts/modernizr-2.8.3.js"></script>
+    <script src="/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="/Scripts/jquery.validate.min.js"></script>
+    <script src="/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="/Scripts/respond.min.js"></script>
+    <script src="/Content/cci/cci.js"></script>
+</head>
+<body>
+    <div id="wrap" class="it-black-15">
+        <div id="header">
+            <div aria-labelledby="iu-campus" id="branding-bar-v1" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity" role="complementary">
+                <div class="bar">
+                    <div class="container">
+                        <div class="campus" id="iu-campus">
+                            <a href="http://www.iu.edu" title="Indiana University">
+                                <img src="/Content/uits/trident-tab.gif" height="73" width="64" alt="" />
+                                <span class="show-on-desktop" itemprop="name">Indiana University</span>
+                                <span class="show-on-tablet" itemprop="name">Indiana University</span>
+                                <span class="show-on-mobile" itemprop="name">Indiana University</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="nav-bar" class="clearfix" role="banner">
+                <div class="container">
+                    <div class="submasthead">IU Directory</div>
+                    <nav aria-label="Site " role="navigation">
+                        <ul id="main-nav">
+                            <li id="home">
+                                <a href="/" title="New Search">
+                                    <span class="glyphicon glyphicon-home"></span>&nbsp;New Search
+                                </a>
+                            </li>
+                            <li id="update-info">
+                                <a href="/information/update" title="Update Information">
+                                    <span class="glyphicon glyphicon-info-sign"></span>&nbsp;Update Information
+                                </a>
+                            </li>
+                            <li id="contact">
+                                <a href="mailto:onlinedirectory@iu.edu" title="Contact">
+                                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact
+                                </a>
+                            </li>
+                        </ul>
+                        <div id="mobile-main-nav" class="mobile-only" aria-hidden="true">
+                            <div class="inner">
+                                <ul>
+                                    <li id="home-mobile">
+                                        <a href="/" onclick="showMenu();">
+                                            <span class="glyphicon glyphicon-home"></span>&nbsp;New Search
+                                        </a>
+                                    </li>
+                                    <li id="update-info-mobile">
+                                        <a href="/information/update" title="Update Information">
+                                            <span class="glyphicon glyphicon-info-sign"></span>&nbsp;Update Information
+                                        </a>
+                                    </li>
+                                    <li id="contact-mobile">
+                                        <a href="mailto:onlinedirectory@iu.edu" title="Contact">
+                                            <span class="glyphicon glyphicon-envelope"></span>&nbsp;Contact
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="mobile-only show-nav-btn" aria-hidden="true">
+                            <a href="javascript:void(0);" onclick="showMenu();">Show menu</a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div class="container">
+                <div class="vm-container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <h1 class="h1">Too many requests.</h1>
+                                    <br />
+                                </div>
+                                <div class="panel-body">
+                                    <p>
+                                        You have made too many requests. Please consider returning to the <a href="/">IU Directory</a> at a later date.
+                                    </p>
+                                    <br />
+                                    <p>
+                                        If you continue to have difficulty, please send questions and comments to
+                                        <a href="mailto:onlinedirectory@iu.edu">onlinedirectory@iu.edu</a>.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="push"></div>
+        </div>
+    </div>
+    <footer id="footer-v1" role="contentinfo" itemscope="itemscope" itemtype="http://schema.org/CollegeOrUniversity">
+        <div class="wrapper">
+            <p class="tagline">Fulfilling <span>the</span> Promise</p>
+            <p class="internal"></p>
+            <p class="copyright">
+                <a href="http://www.iu.edu/" class="block-iu"><img src="/Content/iu/block-iu.png" height="26" width="22" alt="Block IU" /></a>
+                <span class="line-break">
+                    <a href="http://www.iu.edu/copyright/index.shtml">Copyright</a> &#169;
+                    <script type="text/javascript">var theDate = new Date(); document.write(theDate.getFullYear());</script>
+                </span>
+                <span class="line-break">The Trustees of <a href="http://www.iu.edu/" itemprop="url"><span itemprop="name">Indiana University</span></a> | </span>
+                <span class="line-break"><a href="http://www.iu.edu/copyright/complaints.shtml">Copyright Complaints</a></span>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
